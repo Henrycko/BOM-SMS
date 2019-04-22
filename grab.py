@@ -21,9 +21,9 @@ try:
 	print("""\033[1;32m
    _  _
  _| || |_   \033[1;36m..::SPAM SMS GRAB UNLIMITED::..\033[1;32m
-|_  ..  _|  \033[1;31mCoded by : @thetermuxchoice\033[1;32m
-|_      _|  \033[1;31mGmail    : Henrycko.Developer@gmail.com\033[1;32m
-  |_||_|    \033[1;31mThanks To: https://www.grab.com/id/\033[1;32m
+|_  ..  _|  \033[1;31mCoded by: @thetermuxchoice\033[1;32m
+|_      _|  \033[1;31mGmail   : Henrycko.Developer@gmail.com\033[1;32m
+  |_||_|    \033[1;31mThanks  : https://www.grab.com/id/\033[1;32m
 """)
 	no = input("\033[1;37m[?] NOMOR 62XXXXXXXXXX =>\033[1;36m ")
 	jum=int(input("\033[1;37m[?] Jumlah => \033[1;36m"))
