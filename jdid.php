@@ -32,7 +32,7 @@ echo "
 #   Coded By    : @thetermuxchoice             #
 #   Contact Me  : Henrycko.Developer@gmail.com #
 #   Date        : 19/12/2017                   #
-#   Thanks to   : JD.ID => https://www.jd.id/  #
+#   Thanks to   : JD.ID => https://www.jd.id   #
 #                                              #
 ################################################\n\n";
 echo "Nomor? (ex : 8XXXXXXXXXX)\nInput : ";
