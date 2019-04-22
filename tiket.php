@@ -1,7 +1,7 @@
 <?php
 /* 
 SPAMMER CODE TIKET.COM
-Modified By: ZeroSvn@babbycyberteam.org
+Modified By: @thetermuxchoice
 Date: 28-04-2018
 */
 @ini_set('output_buffering',0);
