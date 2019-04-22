@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Coded by @thetermuxchoice
-#########################################################
+"""
 Copyright ©2019 by thetermuxchoice. All rights reserved.
 https://github.com/thetermuxchoice
-#########################################################
+"""
 from multiprocessing.pool import ThreadPool
 try:
 	import os, random
@@ -20,8 +20,8 @@ try:
 	os.system('clear')
 	print("""\033[1;32m
    _  _     \033[1;36m..::SPAM SMS GRAB UNLIMITED::..\033[1;32m
- _| || |_   \033[1;31m Coded by : @thetermuxchoice\033[1;32m
-|_  ..  _|  \033[1;31m  Contact : Henrycko.Developer@gmail.com\033[1;32m
+ _| || |_   \033[1;31mCoded by  : @thetermuxchoice\033[1;32m
+|_  ..  _|  \033[1;31mContact   : Henrycko.Developer@gmail.com\033[1;32m
 |_      _|  \033[1;31mThanks TO : https://www.grab.com/id/\033[1;32m
   |_||_| 
 """)
