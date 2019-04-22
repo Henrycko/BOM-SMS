@@ -21,10 +21,10 @@ function tokcall($no, $jum, $wait){
     }
 }
 print "+-+-+-+-+ +-+-+-+-+
-|C|A|L|L| |S|P|A|M|            ╔══════════════════╗
-+-+-+-+-+ +-+-+-+-+ Coded By : ║ @thetermuxchoice ║
-                               ╚══════════════════╝
-                   Thanks To : tokopedia => https://www.tokopedia.com/
+|C|A|L|L| |S|P|A|M|             ╔══════════════════╗
++-+-+-+-+ +-+-+-+-+  Coded By : ║ @thetermuxchoice ║
+                                ╚══════════════════╝
+                    Thanks To : tokopedia => https://www.tokopedia.com/
 \n";
 
 echo "Nomor? (Contoh : 628XXXXXXXXXX)\nInput : ";
