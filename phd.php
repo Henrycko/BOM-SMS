@@ -31,8 +31,8 @@ echo "
 #        ..::[ SMS BOM From PHD ]::..            #
 #    Coded By    : @thetermuxchoice              #
 #    Contact Me  : Henrycko.Developer@gmail.com  #
-#    Thanks to   : https://www.phd.co.id         #
-#                                                #
+#    Thanks to   : Pizza Hut Delivery (PHD)      #
+#    Visite      : https://www.phd.co.id         #
 ##################################################\n\n";
 echo "Nomor? (ex : 628XXXXXXXXXX)\nInput : ";
 $nomor = trim(fgets(STDIN));
