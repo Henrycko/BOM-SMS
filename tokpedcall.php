@@ -20,13 +20,14 @@ function tokcall($no, $jum, $wait){
         flush();
     }
 }
-print "+-+-+-+-+ +-+-+-+-+    [ From Tokopedia ]
-|C|A|L|L| |S|p|a|m|   Code By : ZeroSvn
-+-+-+-+-+ +-+-+-+-+   Thanks  : BabbyCyberTeam
-                                  SGB-TEAM
+print "+-+-+-+-+ +-+-+-+-+
+|C|A|L|L| |S|P|A|M|            ╔══════════════════╗
++-+-+-+-+ +-+-+-+-+ Coded By : ║ @thetermuxchoice ║
+                               ╚══════════════════╝
+                   Thanks To : tokopedia => https://www.tokopedia.com/
 \n";
 
-echo "Nomor? (ex : 6287788666791) (hanya 3x perjam)\nInput : ";
+echo "Nomor? (Contoh : 628XXXXXXXXXX)\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "1x persubmit\nInput : ";
 $jumlah = trim(fgets(STDIN));
@@ -34,6 +35,6 @@ echo "Jeda? 0-999 (ex:5)\nInput : ";
 $wait = trim(fgets(STDIN));
 $execute = tokcall($nomor, $jumlah, $wait);
 print $execute;
-print "Zeeb Berhasil\n";
-print "Note: Script Kapan Pun Bisa Down\n";
+print "Sukses, Berhasil\n";
+print "Note: Hanya 3X/jam\n";
 ?>
