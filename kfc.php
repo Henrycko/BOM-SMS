@@ -2,8 +2,8 @@
 include 'bomkfc.php';
 
 /*
-    https://github.com/zerosvn/bom-sms/
-    Modified By ZeroSvn
+    https://github.com/thetermuxchoice/
+    Modified By @thetermuxchoice
 */
 
 $init = new Bom();
@@ -13,7 +13,7 @@ echo "
 +------------------------------------+
 +                                    +
 +    ...::[$ Spam SMS KFC $]::...    +
-+        [# Code By ZeroSvn ]        +
++    [ Coded By @thetermuxchoice ]   +
 +                                    +
 +------------------------------------+\n\n";
 echo "Nomor Target\nInput : ";
