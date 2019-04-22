@@ -16,9 +16,9 @@ except ModuleNotFoundError:
 banner=("""\033[1;36m
      _  _
    _| || |_  \033[1;32m..::SPAM SMS Tri3 UNLIMITED::..\033[1;36m
-  |_  ..  _| \033[1;31mCoded by  : @thetermuxchoice\033[1;36m
-  |_      _| \033[1;31mContact   : Henrycko.Developer@gmail.com\033[1;32m
-    |_||_|   \033[1;31mThanks To : https://tri.co.id
+  |_  ..  _| \033[1;31mCoded by : @thetermuxchoice\033[1;36m
+  |_      _| \033[1;31mGmail    : Henrycko.Developer@gmail.com\033[1;32m
+    |_||_|   \033[1;31mThanks To: https://tri.co.id
     
 """)
 
