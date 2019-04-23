@@ -115,16 +115,24 @@ class prankcall{
 		}
 	}
 }
-echo " \n";
-echo " \n";
+
 echo " \n";
 echo " ____                         ____      _ _
 / ___| _ __   __ _ _ __ ___  / ___|__ _| | |
 \___ \| '_ \ / _` | '_ ` _ \| |   / _` | | |
  ___) | |_) | (_| | | | | | | |__| (_| | | |
 |____/| .__/ \__,_|_| |_| |_|\____\__,_|_|_|
-      |_|                              
-                                    v.2.3\n";
+      |_|                              v.2.3
+____________________________________________________
+|                   ! NOTICE !                     |
+|--------------------------------------------------|
+|  Athor     = Henrycko                            |
+|  Pendukung = Dzakira Alzena Daiva                |
+|  GitHub    = https://github.com/thetermuxchoice  |
+|  Contact   = thetermuxchoice@gmail.com           |
+|  Thanks To = https://www.grab.com/id/            |
+|  Info      = Gunakan Tools Dengan Bijak :)       |
+----------------------------------------------------\n";
 echo " \n";
 sleep ('0.4');
 echo "Masukan Nomor Target : ";
