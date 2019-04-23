@@ -1,4 +1,4 @@
-# BOM $₥$ Indonesia v1.5 BETA
+# BOM $₥$ Indonesia v2.0
 
 Dilarang Menyalahgunakan Tools Ini!
 
