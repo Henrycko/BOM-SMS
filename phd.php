@@ -29,10 +29,10 @@ echo "
 ##################################################
 #                                                #
 #        ..::[ SMS BOM From PHD ]::..            #
-#    Coded By    : @thetermuxchoice              #
+#    Author      : @thetermuxchoice              #
 #    Contact Me  : Henrycko.Developer@gmail.com  #
-#    Thanks to   : Pizza Hut Delivery (PHD)      #
-#    Visite      : https://www.phd.co.id         #
+#    Pendukung   : Dzakira Alzena Daiva          #
+#    Thanks To   : https://www.phd.co.id         #
 #                                                #
 ##################################################\n\n";
 echo "Nomor? (ex : 62XXXXXXXXXXX)\nInput : ";
