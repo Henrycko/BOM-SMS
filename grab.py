@@ -21,9 +21,9 @@ try:
 	print("""\033[1;32m
    _  _
  _| || |_   \033[1;36m..::SPAM SMS GRAB UNLIMITED::..\033[1;32m
-|_  ..  _|  \033[1;31mAuthor: @thetermuxchoice\033[1;32m
-|_      _|  \033[1;31mGmail : Henrycko.Developer@gmail.com\033[1;32m
-  |_||_|    \033[1;31mThanks: Dzakira Alzena Daiva\033[1;32m
+|_  ..  _|  \033[1;31mAuthor   : Henrycko\033[1;32m
+|_      _|  \033[1;31mContact  : thetermuxchoice@gmail.com\033[1;32m
+  |_||_|    \033[1;31mPendukung: Dzakira Alzena Daiva\033[1;32m
 
 """)
 	no = input("\033[1;37m[?] NOMOR 62XXXXXXXXXX =>\033[1;36m ")
@@ -50,3 +50,4 @@ for x in range(jum):
 p=ThreadPool(5)
 p.map(main,jobs)
 print("Selesai!...")
+Henrycko.Developer@gmail.com
