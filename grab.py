@@ -50,4 +50,4 @@ for x in range(jum):
 p=ThreadPool(5)
 p.map(main,jobs)
 print("Selesai!...")
-Henrycko.Developer@gmail.com
+
