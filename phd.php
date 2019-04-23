@@ -29,8 +29,8 @@ echo "
 ##################################################
 #                                                #
 #        ..::[ SMS BOM From PHD ]::..            #
-#    Author      : @thetermuxchoice              #
-#    Contact Me  : Henrycko.Developer@gmail.com  #
+#    Author      : Henrycko                      #
+#    Contact Me  : thetermuxchoice@gmail.com     #
 #    Pendukung   : Dzakira Alzena Daiva          #
 #    Thanks To   : https://www.phd.co.id         #
 #                                                #
