@@ -14,11 +14,11 @@ except ModuleNotFoundError:
 	exit()
   
 banner=("""\033[1;36m
-     _  _
-   _| || |_  \033[1;32m..::SPAM SMS Tri3 UNLIMITED::..\033[1;36m
-  |_  ..  _| \033[1;31mAuthor: @thetermuxchoice\033[1;36m
-  |_      _| \033[1;31mGmail : Henrycko.Developer@gmail.com\033[1;32m
-    |_||_|   \033[1;31mThanks: Dzakira Alzena Daiva
+   _  _
+ _| || |_   \033[1;36m..::SPAM SMS GRAB UNLIMITED::..\033[1;32m
+|_  ..  _|  \033[1;31mAuthor   : Henrycko\033[1;32m
+|_      _|  \033[1;31mContact  : thetermuxchoice@gmail.com\033[1;32m
+  |_||_|    \033[1;31mPendukung: Dzakira Alzena Daiva\033[1;32m
     
 """)
 
