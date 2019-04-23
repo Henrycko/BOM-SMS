@@ -2,9 +2,9 @@ ____________________________________________________
 |                   ! NOTICE !                     |
 |--------------------------------------------------|
 |  Athor     = @thetermuxchoice                    |
-|  TooL Spam = Telepon                             |
+|  Pendukung = Dzakira Alzena Daiva                |
 |  GitHub    = https://github.com/thetermuxchoice  |
-|  Contact   = Henrycko.Developer@gmail.com		     |
+|  Contact   = Henrycko.Developer@gmail.com        |
 |  Thanks To = https://www.grab.com/id/            |
 |  Info      = Gunakan Tools Dengan Bijak :)       |
 ----------------------------------------------------
