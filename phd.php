@@ -35,7 +35,7 @@ echo "
 #    Visite      : https://www.phd.co.id         #
 #                                                #
 ##################################################\n\n";
-echo "Nomor? (ex : 628XXXXXXXXXX)\nInput : ";
+echo "Nomor? (ex : 62XXXXXXXXXXX)\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
