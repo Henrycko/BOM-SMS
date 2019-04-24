@@ -26,9 +26,9 @@ print("""%s
 /| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 62)%s
 \| |._.| |/-’
  '"'   '"'
-<NOTE> Github : https://github.com/Henrycko"
+<NOTE> Github : https://github.com/Henrycko"""
 print("%s[*] Klik ENTER untuk melewati step%s"
-no1 = input("[?] Nomor Target => %s"%
+no1 = input("[?] Nomor Target => %s"
 jlmh=int(input("%s[?] Jumlah spam => %s"
 dt={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
 
