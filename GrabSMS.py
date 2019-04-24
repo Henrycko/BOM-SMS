@@ -17,7 +17,7 @@ try:
 	os.system('clear')
 	print("""\033[1;32m
    _  _
- _| || |_   \033[1;36m..::SPAM SMS GRAB UNLIMITED::..\033[1;32m
+ _| || |_   \033[1;36m..::SPAM OTP GRAB UNLIMITED::..\033[1;32m
 |_  ..  _|  \033[1;31mPenyusun : Henrycko\033[1;32m
 |_      _|  \033[1;31mPendukung: Dzakira Alzena Daiva\033[1;32m
   |_||_|    \033[1;31mGitHub   : https://github.com/Henrycko\033[1;32m
