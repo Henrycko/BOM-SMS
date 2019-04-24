@@ -26,15 +26,15 @@ print("""%s
 /| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 62)%s
 \| |._.| |/-’
  '"'   '"'
-<NOTE> Github : https://github.com/Henrycko"""%(c,r,g,r,g,r,g,r,g,r,w,r))
-print("%s[*] Klik ENTER untuk melewati step%s"%(g,g))
-no1 = input("[?] Nomor Target => %s"%(w))
-jlmh=int(input("%s[?] Jumlah spam => %s"%(g,w)))
+<NOTE> Github : https://github.com/Henrycko"
+print("%s[*] Klik ENTER untuk melewati step%s"
+no1 = input("[?] Nomor Target => %s"%
+jlmh=int(input("%s[?] Jumlah spam => %s"
 dt={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
 
 try:
 	print()
-	print("%s[-] RESULT:%s"%(r,w))
+	print("%s[-] RESULT:%s"
 	for i in range(jlmh):
 		print("[!] PLEASE WAIT...")
 		idk=("challengeID")
