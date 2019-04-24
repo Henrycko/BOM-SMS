@@ -4,7 +4,7 @@ try:
 	import requests,os,time,sys
 	os.system('clear')
 	print("""
-\t ..::SPAM OTP TELKOMSEL v2.0::..
+\t   SPAM OTP TELKOMSEL v2.0
 \t         .   :   .  "
 \t     '.   .  :  .   .' "
 \t   ._   '._.-'''-._.'   _. "
@@ -23,7 +23,7 @@ try:
 \t         '    :   ' "
 \t             ' "
 
-[EX] +62""")
+EX : +62""")
 	no=input("[?] No target: ")
 	jml=int(input("[?] Jumlah: "))
 	input("[!] Apakah Nomor: "+no+" Sudah Benar? [Enter]")
