@@ -13,5 +13,7 @@ _Pembuat Tidak Bertanggung Jawab! (apa pun itu)_
 
 ##### => Repair damaged script
 
+##### => Adding Features
+
 ## LICENSE : [GNU Affero General Public License v3.0](https://github.com/thetermuxchoice/BOM-SMS/blob/master/LICENSE)
 
