@@ -15,7 +15,7 @@ except ModuleNotFoundError:
   
 banner=("""\033[1;36m
    _  _
- _| || |_   \033[1;36m..::SPAM SMS GRAB UNLIMITED::..\033[1;32m
+ _| || |_   \033[1;36m..::SPAM OTP Tri3 UNLIMITED::..\033[1;32m
 |_  ..  _|  \033[1;31mAuthor   : Henrycko\033[1;32m
 |_      _|  \033[1;31mContact  : thetermuxchoice@gmail.com\033[1;32m
   |_||_|    \033[1;31mPendukung: Dzakira Alzena Daiva\033[1;32m
