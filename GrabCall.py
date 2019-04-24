@@ -23,7 +23,7 @@ print("""%s
   )  `  (    ,
  /       \  ((
  |       |   ))
-/| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 62XXXXXXXXXXXX)%s
+/| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 62)%s
 \| |._.| |/-’
  '"'   '"'
 <NOTE> Github : https://github.com/Henrycko"""%(c,r,g,r,g,r,g,r,g,r,w,r))
