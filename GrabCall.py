@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Coded by thetermuxchoice
+# Coded by Henrycko
 
 try:
 	import os, requests, time
