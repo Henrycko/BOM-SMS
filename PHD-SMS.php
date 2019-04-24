@@ -26,15 +26,15 @@ function phd($no, $jum, $wait){
     }
 }
 echo "
-##################################################
-#                                                #
-#        ..::[ SMS BOM From PHD ]::..            #
-#    Author      : Henrycko                      #
-#    Contact Me  : thetermuxchoice@gmail.com     #
-#    Pendukung   : Dzakira Alzena Daiva          #
-#    Thanks To   : https://www.phd.co.id         #
-#                                                #
-##################################################\n\n";
+╔══════════════════════════════════════════════╗
+║                                              ║
+║        ..::» SMS BOM From PHD «::..          ║
+║    Penyusun  : Henrycko                      ║
+║    Pendukung : Dzakira Alzena Daiva          ║
+║    GitHub    : https://github.com/Henrycko   ║
+║    Thanks To : https://www.phd.co.id         ║
+║                                              ║
+╚══════════════════════════════════════════════╝\n\n";
 echo "Nomor? (ex : 62XXXXXXXXXXX)\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
