@@ -14,27 +14,27 @@ c=('\033[1;36m')
 r=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
-print("""%s
-			SPAM CALL GRAB v.3.0%s
+print("""
+			SPAM CALL GRAB v.3.0
  ,_     _‚
- |\\\___//| %sPenyusun : Henrycko%s
- |=6   6=|  %sPendukung: Dzakira Alzena Daiva%s
- \=._Y_.=/  %sGmail    : thetermuxchoice@gmail.com%s
+ |\\\___//| Penyusun  : Henrycko
+ |=6   6=|  Pendukung : Dzakira Alzena Daiva
+ \=._Y_.=/  Gmail     : thetermuxchoice@gmail.com
   )  `  (    ,
  /       \  ((
  |       |   ))
-/| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 62)%s
+/| |   | |\_//	MASUKAN NOMOR DENGAN "62" (EX: 62)
 \| |._.| |/-’
  '"'   '"'
 <NOTE> Github : https://github.com/Henrycko"""
-print("%s[*] Klik ENTER untuk melewati step%s"
-no1 = input("[?] Nomor Target => %s"
-jlmh=int(input("%s[?] Jumlah spam => %s"
+print("[*] Klik ENTER Untuk Skip!"
+no1 = input("[?] Nomor Target =>"
+jlmh=int(input("%s[?] Jumlah spam =>"
 dt={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
 
 try:
 	print()
-	print("%s[-] RESULT:%s"
+	print("[-] RESULT:"
 	for i in range(jlmh):
 		print("[!] PLEASE WAIT...")
 		idk=("challengeID")
@@ -46,4 +46,4 @@ try:
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
-	print("%sThank's Good bye!"%(c))
+	print("Thank's Good bye!")
