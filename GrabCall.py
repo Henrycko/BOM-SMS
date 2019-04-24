@@ -15,7 +15,7 @@ r=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
-			SPAM CALL v.3.0%s
+			SPAM CALL GRAB v.3.0%s
  ,_     _‚
  |\\\___//| %sPenyusun : Henrycko%s
  |=6   6=|  %sPendukung: Dzakira Alzena Daiva%s
