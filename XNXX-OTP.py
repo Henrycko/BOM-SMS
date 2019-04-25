@@ -7,7 +7,7 @@ import subprocess as sp
 
 subprocess.call("clear", shell=True)
 
-banner = """
+banner = """)
 ╔╗╴╴╴╔══════╗ \033[1;34mCall SPAM\033[1;36m UNLIMITED\033[0m
 ║║╴╴╴║╴╔════╝
 ║╚═══╝╴╚════╗ Penyusun  : \033[1;32@thetermuxchoice01\033[0m
