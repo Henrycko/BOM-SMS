@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Ganti 62XXXXXXXXXXX ( Dengan No Target )
+
 import requests,json,time,subprocess
 import os, time
 import subprocess as sp
