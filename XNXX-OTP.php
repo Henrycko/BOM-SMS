@@ -2,9 +2,12 @@
 system("apt-get install toilet -y");
 system("toilet -f future FakeCall --gay");
 echo "
-[====================]
- SPAM CALL UNLIMITED
-[====================]
+ ╔╗╴╴╴╔══════╗ \033[1;34mSPAM CALL\033[1;36m UNLIMITED\033[0m
+║║╴╴╴║╴╔════╝
+║╚═══╝╴╚════╗ Penyusun   : \033[1;32Henrycko01\033[0m
+╚════╗╴╔═══╗║ Pendukung  : \033[1;32Dzakira Alzena Daiva01\033[0m
+╔════╝╴║╴╴╴║║ 
+╚══════╝╴╴╴╚╝
 ";
 function api($nomor,$jumlah){
 $url = "https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor=$nomor";
