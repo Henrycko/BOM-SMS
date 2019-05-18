@@ -7,7 +7,7 @@ Gunakan Tools Dengan Bijak :)
 _Pembuat Tidak Bertanggung Jawab! (apa pun itu)_
 
 ## What's new in the current version?
-##### => Bug Fixed!
+##### => Bug Fixed
 
 ##### => Optimizing
 
