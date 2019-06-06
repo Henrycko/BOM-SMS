@@ -20,7 +20,7 @@ try:
  _| || |_   \033[1;36m..::SPAM OTP GRAB UNLIMITED::..\033[1;32m
 |_  ..  _|  \033[1;31mPenyusun : Henrycko\033[1;32m
 |_      _|  \033[1;31mPendukung: Dzakira Alzena Daiva\033[1;32m
-  |_||_|    \033[1;31mGitHub   : https://github.com/Henrycko\033[1;32m
+  |_||_|    \033[1;31mContact  : thetermuxchoice@gmail.com\033[1;32m
 """)
 	
 	no = input("\033[1;37m[?] Nomor (62) =>\033[1;36m ")
