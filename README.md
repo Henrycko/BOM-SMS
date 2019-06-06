@@ -1,4 +1,4 @@
-# BOM $₥$ Indonesia v2.0
+# BOM $₥$ Indonesia v2.5
 
 Dilarang Menyalahgunakan Tools Ini!
 
@@ -14,6 +14,8 @@ _Pembuat Tidak Bertanggung Jawab! (apa pun itu)_
 ##### => Repair damaged script
 
 ##### => Adding Features
+
+##### => Enhance Your Tools Experience
 
 ## LICENSE : [GNU Affero General Public License v3.0](https://github.com/thetermuxchoice/BOM-SMS/blob/master/LICENSE)
 
