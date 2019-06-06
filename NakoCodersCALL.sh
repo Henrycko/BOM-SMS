@@ -1,4 +1,3 @@
-
 #!/bin/bash
 bom(){
     sleep 0.03
@@ -84,7 +83,7 @@ else
             echo " Gunakan tools dengan bijak!"
             echo
             echo " Love u always "
-            echo " -zLucifer"
+            echo " -Henrycko"
             echo "======================================="
     else
         echo "Kesalahan"
