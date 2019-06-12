@@ -27,12 +27,11 @@ function phd($no, $jum, $wait){
 }
 echo "
 ╔══════════════════════════════════════════════╗
-║                                              ║
 ║        ..::» SMS BOM From PHD «::..          ║
+║                                              ║
 ║    Penyusun  : Henrycko                      ║
 ║    Pendukung : Dzakira Alzena Daiva          ║
 ║    GitHub    : https://github.com/Henrycko   ║
-║    Thanks To : https://www.phd.co.id         ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝\n\n";
 echo "Nomor? (EX : 62)\nInput : ";
