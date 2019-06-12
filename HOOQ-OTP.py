@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 try:
 	import mechanize,os,sys,time
 	
@@ -31,7 +34,7 @@ try:
 	jlm=int(input("[?] Jumlah : "))
 	print()
 	if jlm > 50:
-		exit("♥ Dzakira Alzena Daiva ♥")
+		exit("Henrycko")
 	for i in range(jlm):
 		send(str(no))
 		time.sleep(1)
