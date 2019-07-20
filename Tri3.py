@@ -10,7 +10,7 @@ banner=("""\033[1;36m
    _  _
  _| || |_   \033[1;31mAuthor  :Henrycko\033[1;32m
 |_  ..  _|  \033[1;31mContact :https://fb.me/Henrycko.xyz\033[1;32m
-|_      _|  \033[1;31mGithub  :https://github.com/Henrycko.xyz\033[1;32m
+|_      _|  \033[1;31mGithub  :https://github.com/Henrycko\033[1;32m
   |_||_|    \033[1;36m~ SPAM SMS (TRI 3) UNLIMITED ~\033[1;32m
 """)
 
