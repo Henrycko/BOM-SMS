@@ -1,3 +1,4 @@
+<?php
 @ini_set('output_buffering',0);
 function phd($no, $jum, $wait){
     $x = 0; 
