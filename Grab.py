@@ -18,7 +18,7 @@ try:
    _  _
  _| || |_   \033[1;31mAuthor  :Henrycko\033[1;32m
 |_  ..  _|  \033[1;31mContact :https://fb.me/Henrycko.xyz\033[1;32m
-|_      _|  \033[1;31mgithub  :https://github.com/Henrycko.xyz\033[1;32m
+|_      _|  \033[1;31mGithub  :https://github.com/Henrycko.xyz\033[1;32m
   |_||_|    \033[1;36m~ SPAM SMS (GRAB) UNLIMITED ~\033[1;32m
 """)
 	no = input("\033[1;37m[?] NOMOR (62) =>\033[1;36m ")
