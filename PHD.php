@@ -1,8 +1,3 @@
-<?php
-/* 
-SPAMMER SMS PHD
-Modified By: @thetermuxchoice
-*/
 @ini_set('output_buffering',0);
 function phd($no, $jum, $wait){
     $x = 0; 
@@ -30,15 +25,15 @@ echo "
 ║        ..::» SMS BOM From PHD «::..          ║
 ║                                              ║
 ║    Penyusun  : Henrycko                      ║
-║    Pendukung : Dzakira Alzena Daiva          ║
+║    Contact   : https://fb.me/Henrycko.xyz    ║
 ║    GitHub    : https://github.com/Henrycko   ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝\n\n";
-echo "Nomor? (EX : 62)\nInput : ";
+echo "Nomor? (62)\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
-echo "Jeda? 0-99999 (ex:1)\nInput : ";
+echo "Jeda? 0-99999 (EX:1)\nInput : ";
 $jeda = trim(fgets(STDIN));
 $execute = phd($nomor, $jumlah, $jeda);
 print $execute;
